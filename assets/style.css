@@ -1,0 +1,28 @@
+/* 
+    Document   : style
+    Created on : 2014-1-24, 9:44:50
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+body{font-family: '华文细黑','Microsoft JHengHei','Microsoft YaHei'}
+.navbar-inverse{
+    background-color: #0087BD;
+    border-color: #0087BD;
+}
+.navbar-inverse .navbar-brand{
+    color:white;
+}
+.feedback-list .label{cursor: pointer;}
+#create_time{color:green;}
+#version{white-space: nowrap;}
+#templateType li{cursor: pointer;}
+dl#feedback-list dd{line-height: 24px;white-space: nowrap;width: 50px;overflow: ellipsis;}
+dl#feedback-list span.created{color:#d9534f;}
+dl#feedback-list span.closed{color:#999;}
+dl#feedback-list span.confirmed{color:#f0ad4e;}
+dl#feedback-list span.solved{color:#5cb85c;}
+dl#feedback-list span.reviewed{color:#5bc0de;}
+.container .row{margin-top: 13px;}
+.bs-footer{margin-top: 50px;margin-left: 30px;border-top: 1px solid #dddddd;padding-top: 13px;width: 95%;}
+.right-bar .feedback-list .label{margin-left: 7px;}
